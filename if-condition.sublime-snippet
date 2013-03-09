@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<% if $1 %>
+<% if ${1:true} %>
 	$0
 <% end %>
 ]]></content>
