@@ -1,12 +1,12 @@
 <snippet>
 	<content><![CDATA[
-<% if $1 %>
+<% if ${1:true} %>
 	$0
 <% else %>
 	$2
 <% end %>
 ]]></content>
-	<tabTrigger>ife</tabTrigger>
+	<tabTrigger>ie</tabTrigger>
 	<scope>text.html.ruby</scope>
 	<description>if-else condition</description>
 </snippet>
